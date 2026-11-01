@@ -75,10 +75,12 @@ python
 
 import numpy as np
 
-
 def simulate_collatz_energy(start_number):
+
     x = start_number
+    
     log_forces = []
+    
     chaos_energy = []
 
     print(f"=== ЗАПУСК СИМУЛЯЦИИ ПОЛЯ СИЛ ДЛЯ X = {start_number} ===")
